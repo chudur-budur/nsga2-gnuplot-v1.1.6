@@ -53,36 +53,40 @@ You may use the following syntax: `./nsga2r random_seed < inp_file.in`, where
 
 About the output files
 ---------------------------------------------------------------------------
-initial_pop.out: This file contains all the information about initial population.
-final_pop.out: This file contains the data of final population.
-all_pop.out: This file containts the data of populations at all generations.
-best_pop.out: This file contains the best solutions obtained at the end of simulation run.
-params.out: This file contains the information about input parameters as read by the program.
+
+  * `initial_pop.out`: This file contains all the information about initial population.
+  * `final_pop.out`: This file contains the data of final population.
+  * `all_pop.out`: This file containts the data of populations at all generations.
+  * `best_pop.out`: This file contains the best solutions obtained at the end of simulation run.
+  * `params.out`: This file contains the information about input parameters as read by the program.
+
 ---------------------------------------------------------------------------
 
 
 About the input parameters
 ---------------------------------------------------------------------------
-popsize: This variable stores the population size (a multiple of 4)
-ngen: Number of generations
-nobj: Number of objectives
-ncon: Number of constraints
-nreal: Number of real variables
-min_realvar[i]: minimum value of i^{th} real variable
-max_realvar[i]: maximum value of i^{th} real variable
-pcross_real: probability of crossover of real variable
-pmut_real: probability of mutation of real variable
-eta_c: distribution index for real variable SBX crossover
-eta_m: distribution index for real variable polynomial mutation
-nbin: number of binary variables
-nbits[i]: number of bits for i^{th} binary variable
-min_binvar[i]: minimum value of i^{th} binary variable
-max_binvar[i]: maximum value of i^{th} binary variable
-pcross_bin: probability of crossover for binary variable
-pmut_bin: probability of mutation for binary variable
-choice: option to display the data realtime using gnuplot
-obj1, obj2, obj3: index of objectives to be shown on x, y and z axes respectively
-angle1, angle2: polar and azimuthal angle required for location of eye
+
+  * `popsize`: This variable stores the population size (a multiple of 4)
+  * `ngen`: Number of generations
+  * `nobj`: Number of objectives
+  * `ncon`: Number of constraints
+  * `nreal`: Number of real variables
+  * `min_realvar[i]`: minimum value of i^{th} real variable
+  * `max_realvar[i]`: maximum value of i^{th} real variable
+  * `pcross_real`: probability of crossover of real variable
+  * `pmut_real`: probability of mutation of real variable
+  * `eta_c`: distribution index for real variable SBX crossover
+  * `eta_m`: distribution index for real variable polynomial mutation
+  * `nbin`: number of binary variables
+  * `nbits[i]`: number of bits for i^{th} binary variable
+  * `min_binvar[i]`: minimum value of i^{th} binary variable
+  * `max_binvar[i]`: maximum value of i^{th} binary variable
+  * `pcross_bin`: probability of crossover for binary variable
+  * `pmut_bin`: probability of mutation for binary variable
+  * `choice`: option to display the data realtime using gnuplot
+  * `obj1`, `obj2`, `obj3`: index of objectives to be shown on x, y and z axes respectively
+  * `angle1`, angle2`: polar and azimuthal angle required for location of eye
+
 ---------------------------------------------------------------------------
 
 
