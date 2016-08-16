@@ -137,11 +137,12 @@ About the files
 
 ---------------------------------------------------------------------------
 
-Please feel free to send questions/comments/doubts/suggestions/bugs
-etc. to deb@iitk.ac.in
+Please feel free to send questions/comments/doubts/suggestions/bugs etc. to deb@iitk.ac.in
 
 Dr. Kalyanmoy Deb
+
 14th June 2005
+
 http://www.iitk.ac.in/kangal/
 
 ---------------------------------------------------------------------------
