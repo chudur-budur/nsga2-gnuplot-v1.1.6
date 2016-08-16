@@ -27,3 +27,5 @@ Revisions by khaled: 07/09/2015
   * The provided Makefile does not recompile the whole project if one of  the header-files (*.h) is changed, the new Makefile detects such changes and recompiles the project if there is any.
   * The Makefile also needed to change a little bit to work with the latest gcc-4.8.4
   * The Makefile was also needed to make more streamlined to conform with the standard Makefile rules.
+
+----------------------------------------------
