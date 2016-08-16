@@ -3,6 +3,7 @@ This is the Readme file for NSGA-II code.
 
 About the Algorithm
 --------------------------------------------------------------------------
+
 NSGA-II: Non-dominated Sorting Genetic Algorithm - II
 
 Please refer to the following paper for details about the algorithm:
@@ -14,34 +15,39 @@ Year: 2002
 Volume: 6
 Number: 2
 Pages: 182-197
+
 ---------------------------------------------------------------------------
 
 
 ---------------------------------------------------------------------------
+
 NOTE: This archive contains routines for ploting the objective data realtime
 using gnuplot. The code has been written for posix compliant operating systems
 and uses standard piping method provided by GNU C library. The routines should
-work on any unix and unix like OS having gnuplot installed and which are posix
+work on any unix and unix like OS having gnuplot installed and which are posix 
 compliant.
+
 ---------------------------------------------------------------------------
 
 
 How to compile and run the program
 ---------------------------------------------------------------------------
+
 Makefile has been provided for compiling the program on linux (and unix-like)
 systems. Edit the Makefile to suit your need. By default, provided Makefile
 attempts to compile and link all the existing source files into one single
 executable.
 
-Name of the executable produced is: nsga2r
+Name of the executable produced is: `nsga2r`
 
-To run the program type: ./nsga2r random_seed
-Here random_seed is a real number in (0,1) which is used as a seed for random
+To run the program type: `./nsga2r random_seed`
+Here `random_seed` is a real number in `(0,1)` which is used as a seed for random
 number generator.
 You can also store all the input data in a text file and use a redirection
 operator to give the inputs to the program in a convenient way.
-You may use the following syntax: ./nsga2r random_seed <inp_file.in, where
-"inp_file.in" is the file that stores all the input parameters
+You may use the following syntax: `./nsga2r random_seed < inp_file.in`, where
+"`inp_file.in`" is the file that stores all the input parameters
+
 ---------------------------------------------------------------------------
 
 
