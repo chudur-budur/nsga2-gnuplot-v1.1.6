@@ -1,4 +1,5 @@
 This is the Readme file for NSGA-II code.
+==========================================
 
 
 About the Algorithm
@@ -92,6 +93,7 @@ About the input parameters
 
 Defining the Test Problem
 ---------------------------------------------------------------------------
+
 Edit the source file problemdef.c to define your test problem. Some sample
 problems (24 test problems from Dr. Deb's book - Multi-Objective Optimization
 using Evolutionary Algorithms) have been provided as examples to guide you
@@ -99,43 +101,40 @@ define your own objective and constraint functions. You can also link other
 source files with the code depending on your need.
 Following points are to be kept in mind while writing objective and constraint
 functions.
-1. The code has been written for minimization of objectives (min f_i). If you want to
-maximize a function, you may use negetive of the function value as the objective value.
-2. A solution is said to be feasible if it does not violate any of the constraints.
-Constraint functions should evaluate to a quantity greater than or equal to zero
-(g_j >= 0), if the solution has to be feasible. A negetive value of constraint means,
-it is being violated.
-3. If there are more than one constraints, it is advisable (though not mandatory)
-to normalize the constraint values by either reformulating them or dividing them
-by a positive non-zero constant.
+
+  1. The code has been written for minimization of objectives (min f_i). If you want to maximize a function, you may use negetive of the function value as the objective value.
+  2. A solution is said to be feasible if it does not violate any of the constraints. Constraint functions should evaluate to a quantity greater than or equal to zero (g_j >= 0), if the solution has to be feasible. A negetive value of constraint means, it is being violated.
+  3. If there are more than one constraints, it is advisable (though not mandatory) to normalize the constraint values by either reformulating them or dividing them by a positive non-zero constant.
+
 ---------------------------------------------------------------------------
 
 
 About the files
 ---------------------------------------------------------------------------
-global.h: Header file containing declaration of global variables and functions
-rand.h: Header file containing declaration of variables and functions for random
-number generator
-allocate.c: Memory allocation and deallocation routines
-auxiliary.c: auxiliary routines (not part of the algorithm)
-crossover.c: Routines for real and binary crossover
-crowddist.c: Crowding distance assignment routines
-decode.c: Routine to decode binary variables
-display.c: Routine to display the data realtime using gnuplot
-dominance.c: Routine to perofrm non-domination checking
-eval.c: Routine to evaluate constraint violation
-fillnds.c: Non-dominated sorting based selection
-initialize.c: Routine to perform random initialization to population members
-list.c: A custom doubly linked list implementation
-merge.c: Routine to merge two population into one larger population
-mutation.c: Routines for real and binary mutation
-nsga2r.c: Implementation of main function and the NSGA-II framework
-problemdef.c: Test problem definitions
-rand.c: Random number generator related routines
-rank.c: Rank assignment routines
-report.c: Routine to write the population information in a file
-sort.c: Randomized quick sort implementation
-tourselect.c: Tournament selection routine
+
+`global.h`: Header file containing declaration of global variables and functions
+`rand.h`: Header file containing declaration of variables and functions for random number generator
+`allocate.c`: Memory allocation and deallocation routines
+`auxiliary.c`: auxiliary routines (not part of the algorithm)
+`crossover.c`: Routines for real and binary crossover
+`crowddist.c`: Crowding distance assignment routines
+`decode.c`: Routine to decode binary variables
+`display.c`: Routine to display the data realtime using gnuplot
+`dominance.c`: Routine to perofrm non-domination checking
+`eval.c`: Routine to evaluate constraint violation
+`fillnds.c`: Non-dominated sorting based selection
+`initialize.c`: Routine to perform random initialization to population members
+`list.c`: A custom doubly linked list implementation
+`merge.c`: Routine to merge two population into one larger population
+`mutation.c`: Routines for real and binary mutation
+`nsga2r.c`: Implementation of main function and the NSGA-II framework
+`problemdef.c`: Test problem definitions
+`rand.c`: Random number generator related routines
+`rank.c`: Rank assignment routines
+`report.c`: Routine to write the population information in a file
+`sort.c`: Randomized quick sort implementation
+`tourselect.c`: Tournament selection routine
+
 ---------------------------------------------------------------------------
 
 Please feel free to send questions/comments/doubts/suggestions/bugs
@@ -144,4 +143,5 @@ etc. to deb@iitk.ac.in
 Dr. Kalyanmoy Deb
 14th June 2005
 http://www.iitk.ac.in/kangal/
+
 ---------------------------------------------------------------------------
