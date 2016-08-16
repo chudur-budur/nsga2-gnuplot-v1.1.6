@@ -112,28 +112,28 @@ functions.
 About the files
 ---------------------------------------------------------------------------
 
-`global.h`: Header file containing declaration of global variables and functions
-`rand.h`: Header file containing declaration of variables and functions for random number generator
-`allocate.c`: Memory allocation and deallocation routines
-`auxiliary.c`: auxiliary routines (not part of the algorithm)
-`crossover.c`: Routines for real and binary crossover
-`crowddist.c`: Crowding distance assignment routines
-`decode.c`: Routine to decode binary variables
-`display.c`: Routine to display the data realtime using gnuplot
-`dominance.c`: Routine to perofrm non-domination checking
-`eval.c`: Routine to evaluate constraint violation
-`fillnds.c`: Non-dominated sorting based selection
-`initialize.c`: Routine to perform random initialization to population members
-`list.c`: A custom doubly linked list implementation
-`merge.c`: Routine to merge two population into one larger population
-`mutation.c`: Routines for real and binary mutation
-`nsga2r.c`: Implementation of main function and the NSGA-II framework
-`problemdef.c`: Test problem definitions
-`rand.c`: Random number generator related routines
-`rank.c`: Rank assignment routines
-`report.c`: Routine to write the population information in a file
-`sort.c`: Randomized quick sort implementation
-`tourselect.c`: Tournament selection routine
+  * `global.h`: Header file containing declaration of global variables and functions
+  * `rand.h`: Header file containing declaration of variables and functions for random number generator
+  * `allocate.c`: Memory allocation and deallocation routines
+  * `auxiliary.c`: auxiliary routines (not part of the algorithm)
+  * `crossover.c`: Routines for real and binary crossover
+  * `crowddist.c`: Crowding distance assignment routines
+  * `decode.c`: Routine to decode binary variables
+  * `display.c`: Routine to display the data realtime using gnuplot
+  * `dominance.c`: Routine to perofrm non-domination checking
+  * `eval.c`: Routine to evaluate constraint violation
+  * `fillnds.c`: Non-dominated sorting based selection
+  * `initialize.c`: Routine to perform random initialization to population members
+  * `list.c`: A custom doubly linked list implementation
+  * `merge.c`: Routine to merge two population into one larger population
+  * `mutation.c`: Routines for real and binary mutation
+  * `nsga2r.c`: Implementation of main function and the NSGA-II framework
+  * `problemdef.c`: Test problem definitions
+  * `rand.c`: Random number generator related routines
+  * `rank.c`: Rank assignment routines
+  * `report.c`: Routine to write the population information in a file
+  * `sort.c`: Randomized quick sort implementation
+  * `tourselect.c`: Tournament selection routine
 
 ---------------------------------------------------------------------------
 
