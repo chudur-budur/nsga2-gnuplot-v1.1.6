@@ -8,13 +8,13 @@ NSGA-II: Non-dominated Sorting Genetic Algorithm - II
 
 Please refer to the following paper for details about the algorithm:
 
-  Authors: Dr. Kalyanmoy Deb, Sameer Agrawal, Amrit Pratap, T Meyarivan
-  Paper Title: A Fast and Elitist multi-objective Genetic Algorithm: NSGA-II
-  Journal: IEEE Transactions on Evolutionary Computation (IEEE-TEC)
-  Year: 2002
-  Volume: 6
-  Number: 2
-  Pages: 182-197
+  * Authors: Dr. Kalyanmoy Deb, Sameer Agrawal, Amrit Pratap, T Meyarivan
+  * Paper Title: A Fast and Elitist multi-objective Genetic Algorithm: NSGA-II
+  * Journal: IEEE Transactions on Evolutionary Computation (IEEE-TEC)
+  * Year: 2002
+  * Volume: 6
+  * Number: 2
+  * Pages: 182-197
 
 ---------------------------------------------------------------------------
 
